@@ -1,0 +1,377 @@
+/**
+ * Site header
+ */
+.site-header {
+  min-height: $spacing-unit * 1.865;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.logo-container {
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow:auto;
+}
+
+.site-title {
+  @include relative-font-size(1.625);
+  font-weight: 300;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+
+  &,
+  &:visited {
+    color: $grey-color-dark;
+  }
+}
+
+.site-nav {
+  background-color: $crimson-color;
+
+  .nav-trigger, label[for="nav-trigger"] {
+      display: none;
+  }
+
+  input {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 12px 15px;
+
+      &:hover {
+        text-decoration: none;
+        background-color: $crimson-color-dark;
+      }
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit / 2;
+    border: 1px solid $grey-color-light;
+    text-align: right;
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
+      margin: 0px
+    }
+
+    .page-link {
+      color: white;
+    }
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg path {
+        fill: white;
+      }
+    }
+
+    input ~ .trigger {
+      clear: both;
+      display: none;
+    }
+
+    input:checked ~ .trigger {
+      display: block;
+    }
+
+    .page-link {
+      display: block;
+      padding: 10px 20px;
+
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+      //margin-left: 20px;
+    }
+  }
+}
+
+/**
+ * Site footer
+ */
+
+// Use flexbox to make footer sticky
+html {
+  height:100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;
+}
+
+.site-footer {
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit 0;
+  background-color: $crimson-color;
+
+  a {
+    color: $antique-gold-color;
+
+    &:hover {
+      color: $grey-color-light;
+    }
+  }
+}
+
+.footer-heading {
+  @include relative-font-size(1.125);
+  color: #FFFFFF;
+  margin-bottom: $spacing-unit / 2;
+}
+
+.cepr-logo-container {
+  width: 300px;
+  padding: 30px 0px;
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.footer-col-wrapper {
+  @include relative-font-size(0.9375);
+  color: #FFFFFF;
+  margin-left: -$spacing-unit / 2;
+  @extend %clearfix;
+}
+
+.footer-col {
+  float: left;
+  margin-bottom: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+  width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+  width:         calc(25% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+  width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+  width:         calc(40% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+  .footer-col-1,
+  .footer-col-2 {
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-3 {
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+@include media-query($on-palm) {
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+.box-subheading {
+  padding-right: 0.5em;
+  display: inline;
+  text-decoration: underline;
+}
+
+.detail-block {
+  background-color: $grey-color-light;
+  overflow:auto;
+  margin-top: 20px;
+  padding: 15px;
+
+  p:first-of-type {
+    display:inline;
+  }
+}
+
+.button-container {
+  float: right;
+
+  .btn {
+    margin-top: 5px
+  }
+}
+
+/**
+ * Page content
+ */
+.page-content {
+  padding: $spacing-unit 0;
+  font-family: $base-font-family;
+}
+
+.page-heading {
+  @include relative-font-size(1.25);
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  @include relative-font-size(1.5);
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h2 {
+    @include relative-font-size(2);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.75);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.625);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.125);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+}
+
+// Custom bootstrap button
+
+.btn-emphasis {
+  color: #FFFFFF !important;
+  background-color: #B5A66B;
+  border-color: #918555 !important;
+}
+
+.btn-emphasis:hover,
+.btn-emphasis:focus,
+.btn-emphasis:active,
+.btn-emphasis.active,
+.open .dropdown-toggle.btn-emphasis {
+  color: #FFFFFF;
+  background-color: #948856;
+  border-color: #918555;
+}
+
+.btn-emphasis:active,
+.btn-emphasis.active,
+.open .dropdown-toggle.btn-emphasis {
+  background-image: none;
+}
+
+.btn-emphasis.disabled,
+.btn-emphasis[disabled],
+fieldset[disabled] .btn-emphasis,
+.btn-emphasis.disabled:hover,
+.btn-emphasis[disabled]:hover,
+fieldset[disabled] .btn-emphasis:hover,
+.btn-emphasis.disabled:focus,
+.btn-emphasis[disabled]:focus,
+fieldset[disabled] .btn-emphasis:focus,
+.btn-emphasis.disabled:active,
+.btn-emphasis[disabled]:active,
+fieldset[disabled] .btn-emphasis:active,
+.btn-emphasis.disabled.active,
+.btn-emphasis[disabled].active,
+fieldset[disabled] .btn-emphasis.active {
+  background-color: #B5A66B;
+  border-color: #918555;
+}
+
+.btn-emphasis .badge {
+  color: #B5A66B;
+  background-color: #FFFFFF;
+}
+
+// Fix some styles that are overwritten
+.btn-default, .btn-default:visited {
+  border-color: $grey-color-medium-light !important;
+  color: $text-color !important;
+}
+
+.link-box-properties {
+  margin: 10px 0px;
+
+  td {
+    padding-right: 1em;
+  }
+}

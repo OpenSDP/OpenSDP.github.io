@@ -1,0 +1,79 @@
+<div class="detail-block">
+  <h4 class="box-subheading">{{ include.heading }}<!--
+  {% if include.author or include.programming_language %}
+--></h4>
+    <table class="link-box-properties">
+      <tr>
+        {% if include.author %}
+          <td>Author: </td>
+          <td>{{include.author}}</td>
+        {% endif %}
+      </tr>
+      <tr>
+        {% if include.programming_language %}
+          <td>Programming Language: </td>
+          <td>{{include.programming_language}}</td>
+        {% endif %}
+      </tr>
+    </table>
+  {% else %}
+-->:</h4>
+  {% endif %}
+
+  {{ include.content }}
+  <br><br>
+
+  <span class="button-container">
+
+    {% if include.download %}
+      <a href="{{include.download}}" class="btn btn-default" role="button">
+        <span class="glyphicon glyphicon-download"></span>
+        Download
+      </a>
+    {% endif %}
+
+    {% if include.download_code %}
+      <a href="{{include.download_code}}" class="btn btn-default" role="button">
+        <span class="glyphicon glyphicon-download"></span>
+        Download Code
+      </a>
+    {% endif %}
+
+    {% if include.download_data %}
+      <a href="{{include.download_data}}" class="btn btn-default" role="button">
+        <span class="glyphicon glyphicon-download"></span>
+        Download Data
+      </a>
+    {% endif %}
+
+    {% if include.rrepository %}
+      <a href="{{include.rrepository}}" class="btn btn-default" role="button">
+        Template in R
+      </a>
+    {% endif %}
+
+    {% if include.statarepository %}
+      <a href="{{include.statarepository}}" class="btn btn-default" role="button">
+       Template in Stata
+      </a>
+    {% endif %}
+
+    {% if include.repository %}
+      <a href="{{include.repository}}" class="btn btn-default" role="button">
+        Go to Repository
+      </a>
+    {% endif %}
+
+    {% if include.guide %}
+      <a href="{{include.guide}}" target="_blank" class="btn btn-emphasis" role="button">View Guide</a>
+    {% endif %}
+
+     {% if include.started %}
+      <a href="{{include.started}}" class="btn btn-default" role="button">
+        Get Started
+      </a>
+    {% endif %}
+
+  </span>
+
+</div>

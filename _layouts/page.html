@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h2 class="post-title">{{ page.title | escape }}</h2>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+    {% for subpage in site.subpages %}
+      {% for tag in page.tags %}
+        {% if subpage.tags contains tag %}
+          {% if subpage.no_formatting %}
+            {{subpage.content}}
+          {% else %}
+            <div class="detail-block">
+              <h4 class="box-subheading">{{subpage.title}}:</h4>
+              {{subpage.content}}
+            </div>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+
+  </div>
+
+</article>
