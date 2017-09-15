@@ -39,6 +39,13 @@
       </a>
     {% endif %}
 
+    {% if include.download_tutorial %}
+      <a href="{{include.download_tutorial}}" class="btn btn-default" role="button">
+        <span class="glyphicon glyphicon-download"></span>
+        Download Tutorial
+      </a>
+    {% endif %}
+
     {% if include.download_data %}
       <a href="{{include.download_data}}" class="btn btn-default" role="button">
         <span class="glyphicon glyphicon-download"></span>
