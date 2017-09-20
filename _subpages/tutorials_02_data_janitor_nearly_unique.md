@@ -11,7 +11,7 @@ As most data analysts know, 80% of the job is getting raw data ready for analysi
   author = "Strategic Data Project"
   programming_language = "Stata"
   content = "This tutorial teaches how to implement decision rules in Stata when cleaning longitudinal data. You will start with a sample data file that is nearly unique at the student and school year level, and clean each variable until the data is internally consistent."
-  download_tutorial = "https://github.com/OpenSDP/data-janitor-stata/tree/v1.0.0"
+  download_tutorial = "https://github.com/OpenSDP/data-janitor-stata/releases/latest"
   repository = "https://github.com/opensdp/data-janitor-stata"
   %}
 
