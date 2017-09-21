@@ -20,6 +20,6 @@ As most data analysts know, 80% of the job is getting raw data ready for analysi
   author = "Strategic Data Project"
   programming_language = "R"
   content =  "This tutorial teaches how to implement decision rules in R when cleaning longitudinal data. You will start with a sample data file that is nearly unique at the student and school year level, and clean each variable until the data is internally consistent."
-  download = "https://github.com/opensdp/data-janitor-r/archive/master.zip"
+  download_tutorial = "https://github.com/OpenSDP/data-janitor-r/releases/latest"
 	repository = "https://github.com/opensdp/data-janitor-r"
 	%}
