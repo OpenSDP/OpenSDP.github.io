@@ -12,9 +12,9 @@ Examine how recruitment and retention patterns vary by characteristics such as s
   author = "Strategic Data Project"
   programming_language = "Stata"
   content = "These analyses examine hiring within a school system, including the distribution of teaching experience for new hires, the demographic characteristics of teachers and students, and the share of new hires by school year and school poverty level."
-  download_code = "https://github.com/opensdp/human-capital-stata/raw/master/programs/Analyze_Recruitment.do"
+  download_code = "https://github.com/opensdp/human-capital-stata/raw/master/programs/Analyze_Recruitment.zip"
   repository = "https://github.com/opensdp/human-capital-stata"
-  guide = "https://opensdp.github.io/human-capital-stata/Human_Capital_Analysis_Recruitment.html"
+  guide = "https://opensdp.github.io/human-capital-stata/docs/Human_Capital_Analysis_Recruitment.html"
   download_data = "https://github.com/opensdp/human-capital-stata/raw/master/data/analysis/human-capital-recruitment-data.zip"
   %}
 
@@ -23,10 +23,10 @@ Examine how recruitment and retention patterns vary by characteristics such as s
   author = "Strategic Data Project"
   programming_language = "Stata"
   content = "This guide examines how retention and turnover patterns vary by school characteristics, how turnover varies for teachers with different effectiveness estimates, and the retention trajectory for novice teachers."
-  download_code = "https://github.com/opensdp/human-capital-stata/raw/master/programs/Analyze_Retention.do"
+  download_code = "https://github.com/opensdp/human-capital-stata/raw/master/programs/Analyze_Retention.zip"
   download_data = "https://github.com/opensdp/human-capital-stata/raw/master/data/analysis/Teacher_Year_Analysis.dta"
   repository = "https://github.com/opensdp/human-capital-stata"
-  guide = "https://opensdp.github.io/human-capital-stata/Human_Capital_Analysis_Retention.html"
+  guide = "https://opensdp.github.io/human-capital-stata/docs/Human_Capital_Analysis_Retention.html"
   %}
 
 
