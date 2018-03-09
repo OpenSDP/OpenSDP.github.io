@@ -4,7 +4,7 @@ no_formatting: true
 ---
 
 ### Human Capital Analysis
-Examine how recruitment and retention patterns vary by characteristics such as school poverty level and estimated teacher effectiveness.
+Examine how recruitment and retention vary by characteristics such as school poverty level and estimated teacher effectiveness.
 
 
 {% include link_box.html
@@ -14,7 +14,7 @@ Examine how recruitment and retention patterns vary by characteristics such as s
   content = "These analyses examine hiring within a school system, including the distribution of teaching experience for new hires, the demographic characteristics of teachers and students, and the share of new hires by school year and school poverty level."
   download_code = "https://github.com/opensdp/human-capital-stata/raw/master/programs/Analyze_Recruitment.zip"
   repository = "https://github.com/opensdp/human-capital-stata"
-  guide = "https://opensdp.github.io/human-capital-stata/docs/Human_Capital_Analysis_Recruitment.html"
+  guide = "https://github.com/opensdp/human-capital-stata/docs/Human_Capital_Analysis_Recruitment.html"
   download_data = "https://github.com/opensdp/human-capital-stata/raw/master/data/analysis/human-capital-recruitment-data.zip"
   %}
 
@@ -26,7 +26,7 @@ Examine how recruitment and retention patterns vary by characteristics such as s
   download_code = "https://github.com/opensdp/human-capital-stata/raw/master/programs/Analyze_Retention.zip"
   download_data = "https://github.com/opensdp/human-capital-stata/raw/master/data/analysis/Teacher_Year_Analysis.dta"
   repository = "https://github.com/opensdp/human-capital-stata"
-  guide = "https://opensdp.github.io/human-capital-stata/docs/Human_Capital_Analysis_Retention.html"
+  guide = "https://github.com/opensdp/human-capital-stata/docs/Human_Capital_Analysis_Retention.html"
   %}
 
 
