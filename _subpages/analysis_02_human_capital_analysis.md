@@ -4,7 +4,7 @@ no_formatting: true
 ---
 
 ### Human Capital Analysis
-Examine how recruitment and retention vary by characteristics such as school poverty level and estimated teacher effectiveness.
+Examine how teacher recruitment and retention vary by characteristics such as school poverty level and estimated teacher effectiveness.
 
 
 {% include link_box.html
