@@ -65,8 +65,9 @@ analysis-ready datasets.
   most data available on Nevada Report Card."
   repository = "https://github.com/opensdp/nevadaReportCardR"
   %}
-
-  Some useful public data sets include:
+  
+    
+Some useful public data sets include:
 
   [College Scorecard Data](https://collegescorecard.ed.gov/data/): These data provide insights into the performance of colleges eligible to receive federal financial aid, and offer a look at the outcomes of students at those schools.
 
