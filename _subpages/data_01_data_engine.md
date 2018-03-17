@@ -70,6 +70,6 @@ Some useful public data sets include:
   content =  "nevadaReportCardr is an open-source R package that provides
   functions to connect to the publicly available API for NevadaReportCard.com.
   Additionally, this package contains already formatted datasets of
-  most data available on Nevada Report Card.
+  most data available on Nevada Report Card."
   repository = "https://github.com/opensdp/nevadaReportCardR"
   %}
