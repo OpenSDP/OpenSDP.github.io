@@ -55,14 +55,6 @@ example, the Nevada Report Card package from Data Insight Partners extracts and
 prepares Nevada school- and district-level data, as well as providing
 analysis-ready datasets.
 
-Some useful public data sets include:
-
-[College Scorecard Data](https://collegescorecard.ed.gov/data/): These data provide insights into the performance of colleges eligible to receive federal financial aid, and offer a look at the outcomes of students at those schools.
-
-[The Ed Data Inventory](https://datainventory.ed.gov/InventoryList) describes data reported to the Department of Education as part of grant activities, along with administrative and statistical data assembled and maintained by the Department.
-
-[Stanford CEPA data](https://cepa.stanford.edu/seda/data-archive) includes data files with a range of detailed data on educational conditions, contexts, and outcomes in schools and school districts across the United States.
-
 {% include link_box.html
   heading = "nevadaReportCardR"
   author = "Data Insight Partners"
@@ -73,3 +65,11 @@ Some useful public data sets include:
   most data available on Nevada Report Card."
   repository = "https://github.com/opensdp/nevadaReportCardR"
   %}
+
+  Some useful public data sets include:
+
+  [College Scorecard Data](https://collegescorecard.ed.gov/data/): These data provide insights into the performance of colleges eligible to receive federal financial aid, and offer a look at the outcomes of students at those schools.
+
+  [The Ed Data Inventory](https://datainventory.ed.gov/InventoryList) describes data reported to the Department of Education as part of grant activities, along with administrative and statistical data assembled and maintained by the Department.
+
+  [Stanford CEPA data](https://cepa.stanford.edu/seda/data-archive) includes data files with a range of detailed data on educational conditions, contexts, and outcomes in schools and school districts across the United States.
