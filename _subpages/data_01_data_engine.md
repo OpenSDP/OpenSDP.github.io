@@ -24,7 +24,8 @@ OpenSDPsynthR is not actually a dataset; it is a data simulation package written
   %}
 
 ### Static Synthetic Data
-Using machine learning routines to mimic real data is an approach that could work well for analysts who want to demonstrate code on OpenSDP that they have written for their own school systems. For example, SDP's "Faketucky" is a synthetic dataset based on real student data. It was developed as an offshoot of the Strategic Data Project's [college-going diagnostic for Kentucky](https://sdp.cepr.harvard.edu/kentucky-college-going), using the R machine learning routine [synthpop](https://cran.r-project.org/web/packages/synthpop/index.html). This dataset is surprisingly realistic, but it can't be extended or altered.
+Using machine learning routines to mimic real data is an approach that could work well for analysts who want to demonstrate code on OpenSDP that they have written for their own school systems. For example, SDP's "Faketucky" is a synthetic dataset based on real student data. It was developed as an offshoot of the Strategic Data Project's [college-going diagnostic for Kentucky](https://sdp.cepr.harvard.edu/kentucky-college-going), using the R machine learning routine [synthpop](https://cran.r-project.org/web/packages/synthpop/index.html). Fake County is a
+synthetic teacher dataset developed from SDP's human capital diagnostic work.
 
 {% include link_box.html
   heading = "Faketucky"
@@ -33,6 +34,19 @@ Using machine learning routines to mimic real data is an approach that could wor
   content =  "The Faketucky synthetic college-going analysis file contains high school and college outcome data for two graduating cohorts of approximately 40,000 students. There are no real children in the dataset, but it mirrors the relationships between variables present in real data."
 	repository = "https://github.com/opensdp/faketucky"
 	%}
+
+  {% include link_box.html
+    heading = "Fake County"
+    author = "Strategic Data Project"
+    programming_language = "Stata"
+    content =  "Fake County is a synthetic panel dataset comprising four years
+    of teacher data with roughly 10,000 teachers per year. It
+    includes information about teacher demographics, assignments,
+    salary, credentials, experience, evaluation scores, and hiring and retention
+    status, as well as school characteristics.  There are no real teachers in
+    the dataset, but it is based on real data."
+  	repository = "https://github.com/opensdp/fake-county"
+  	%}
 
 ### Publicly Available Data
 OpenSDP encourages community members to use publicly available data sets and share the results (as well as guidance for replicating the analyses). Some useful data sets incude:
