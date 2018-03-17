@@ -24,8 +24,8 @@ OpenSDPsynthR is not actually a dataset; it is a data simulation package written
   %}
 
 ### Static Synthetic Data
-Using machine learning routines to mimic real data is an approach that could work well for analysts who want to demonstrate code on OpenSDP that they have written for their own school systems. For example, SDP's "Faketucky" is a synthetic dataset based on real student data. It was developed as an offshoot of the Strategic Data Project's [college-going diagnostic for Kentucky](https://sdp.cepr.harvard.edu/kentucky-college-going), using the R machine learning routine [synthpop](https://cran.r-project.org/web/packages/synthpop/index.html). Fake County is a
-synthetic teacher dataset developed from SDP's human capital diagnostic work.
+Using machine learning routines to mimic real data is an approach that could work well for analysts who want to demonstrate code on OpenSDP that they have written for their own school systems. For example, SDP's "Faketucky" is a synthetic dataset based on real student data. It was developed as an offshoot of the Strategic Data Project's [college-going diagnostic for Kentucky](https://sdp.cepr.harvard.edu/kentucky-college-going), using the R machine learning routine [synthpop](https://cran.r-project.org/web/packages/synthpop/index.html). "Fake County" is a
+synthetic teacher dataset resulting from SDP's human capital diagnostic work.
 
 {% include link_box.html
   heading = "Faketucky"
