@@ -41,3 +41,21 @@ As most data analysts know, 80% of the job is getting raw data ready for analysi
   download_tutorial = "https://github.com/OpenSDP/data-janitor-r/releases/latest"
   repository = "https://github.com/opensdp/data-janitor-r"
   %}
+  
+{% include link_box.html
+  heading = "Combining Files"
+  author = "Strategic Data Project"
+  programming_language = "Stata"
+  content = "This tutorial teaches how to combine two cleaned data files into one analysis file. You will start with three clean data files, then combine this student, teacher and test data and define several additional variables to create a file ready for analysis."
+  download_tutorial = "https://github.com/OpenSDP/combining-files-stata/releases/latest"
+  repository = "https://github.com/opensdp/combining-files-stata"
+  %}
+
+{% include link_box.html
+  heading = "Combining Files"
+  author = "Strategic Data Project"
+  programming_language = "R"
+  content =  "This tutorial teaches how to combine two cleaned data files into one analysis file. You will start with three clean data files, then combine this student, teacher and test data and define several additional variables to create a file ready for analysis."
+  download_tutorial = "https://github.com/OpenSDP/combining-files-r/releases/latest"
+  repository = "https://github.com/opensdp/combining-files-r"
+  %}
