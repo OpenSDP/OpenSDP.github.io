@@ -23,7 +23,7 @@ Examine how teacher recruitment and retention vary by characteristics such as sc
   author = "Strategic Data Project"
   programming_language = "Stata"
   content = "This guide examines teacher effectiveness measure distributions, whether two years of teacher effectiveness measures are predictive of average teacher effectiveness in a third year, and the distribution of teacher effects in the third year for teachers in the top and bottom teacher effects quartiles in the previous two years."
-  download_code = "https://github.com/opensdp/human-capital-stata/raw/master/programs/Analyze_Evaluation.do"
+  download_code = "https://github.com/opensdp/human-capital-stata/raw/master/programs/Analyze_Evaluation.zip"
   download_data = "https://github.com/opensdp/human-capital-stata/raw/master/data/analysis/Teacher_Year_Analysis.dta"
   repository = "https://github.com/opensdp/human-capital-stata"
   guide = "https://opensdp.github.io/human-capital-stata/Human_Capital_Analysis_Evaluation.html"
