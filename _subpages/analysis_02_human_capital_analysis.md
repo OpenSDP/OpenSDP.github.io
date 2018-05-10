@@ -19,6 +19,28 @@ Examine how teacher recruitment and retention vary by characteristics such as sc
   %}
 
 {% include link_box.html
+  heading = "Placement"
+  author = "Strategic Data Project"
+  programming_language = "Stata"
+  content = "This guide is an examination of the patterns in student assignment to teachers across and within schools to identify places where efforts to reform placement policies could positively impact students and teachers. It uses data from the human capital analysis toolkit."
+  download_code = "https://github.com/opensdp/human-capital-stata/raw/master/programs/Analyze_Placement.zip"
+  download_data = "https://github.com/opensdp/human-capital-stata/raw/master/data/analysis_toolkit/toolkit-data.zip"
+  repository = "https://github.com/opensdp/human-capital-stata"
+  guide = "https://opensdp.github.io/human-capital-stata/Human_Capital_Analysis_Placement.html"
+  %}
+
+{% include link_box.html
+  heading = "Development"
+  author = "Strategic Data Project"
+  programming_language = "Stata"
+  content = "This guide is an examination of the ways teachers develop during their careers and an exploration of whether agency incentives are aligned with gains in teacher effectiveness. It uses data from the human capital analysis toolkit."
+  download_code = "https://github.com/opensdp/human-capital-stata/raw/master/programs/Analyze_Development.zip"
+  download_data = "https://github.com/opensdp/human-capital-stata/raw/master/data/analysis_toolkit/toolkit-data.zip"
+  repository = "https://github.com/opensdp/human-capital-stata"
+  guide = "https://opensdp.github.io/human-capital-stata/Human_Capital_Analysis_Development.html"
+  %}
+  
+{% include link_box.html
   heading = "Evaluation"
   author = "Strategic Data Project"
   programming_language = "Stata"
