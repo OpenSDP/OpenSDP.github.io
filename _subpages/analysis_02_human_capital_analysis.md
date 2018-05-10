@@ -4,8 +4,7 @@ no_formatting: true
 ---
 
 ### Human Capital Analysis
-Examine how teacher recruitment and retention vary by characteristics such as school poverty level and estimated teacher effectiveness, and examines a teacher effectiveness measure.
-
+Use data to examine teacher workforce patterns and generate data visualizations illuminating the different stages of the human capital pipeline: recruitment, placement, development, evaluation, and retention.
 
 {% include link_box.html
   heading = "Recruitment"
