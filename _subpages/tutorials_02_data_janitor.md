@@ -59,3 +59,21 @@ As most data analysts know, 80% of the job is getting raw data ready for analysi
   download_tutorial = "https://github.com/OpenSDP/combining-files-r/releases/latest"
   repository = "https://github.com/opensdp/combining-files-r"
   %}
+  
+  {% include link_box.html
+  heading = "Cleaning Raw Data"
+  author = "Strategic Data Project"
+  programming_language = "Stata"
+  content = "This tutorial demonstrates the process of cleaning a raw data file from start to finish. It also demonstrates some features of Stata which are critical for writing efficient code, and the syntax for a number of commands needed for data cleaning. The tutorial concludes with a demonstration of how to reshape data from long to wide format."
+  download_tutorial = "https://github.com/OpenSDP/cleaning-raw-data-stata/releases/latest"
+  repository = "https://github.com/opensdp/cleaning-raw-data-stata"
+  %}
+
+{% include link_box.html
+  heading = "Cleaning Raw Data"
+  author = "Strategic Data Project"
+  programming_language = "R"
+  content =  "This tutorial demonstrates the process of cleaning a raw data file from start to finish. It also demonstrates some features of R which are critical for writing efficient code and the syntax for a number of commands needed for data cleaning. The tutorial concludes with a demonstration of how to reshape data from long to wide format."
+  download_tutorial = "https://github.com/OpenSDP/cleaning-raw-data-r/releases/latest"
+  repository = "https://github.com/opensdp/cleaning-raw-data-r"
+  %}
