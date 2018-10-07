@@ -4,7 +4,13 @@ no_formatting: true
 ---
 
 ### Synthetic Data Engine
-OpenSDPsynthR is not actually a dataset; it is a data simulation package written in R. There are advantages to using simulation to generate synthetic data. The data can become richer and more complex over time as the simulation code is tuned and extended. Eventually, it's possible that simulation could leverage publicly available data to generate synthetic versions of any school district on demand.
+
+OpenSDPsynthR is not actually a dataset; it is a data simulation package written
+in R. There are advantages to using simulation to generate synthetic data. The
+data can become richer and more complex over time as the simulation code is
+tuned and extended. Eventually, it's possible that simulation could leverage
+publicly available data to generate synthetic versions of any school district on
+demand.
 
 {% include link_box.html
   heading = "OpenSDPsynthR"
@@ -65,7 +71,7 @@ analysis-ready datasets.
   most data available on Nevada Report Card."
   repository = "https://github.com/opensdp/nevadaReportCardR"
   %}
-  
+
 #### Some useful public data sets include:
 
   [College Scorecard Data](https://collegescorecard.ed.gov/data/): These data provide insights into the performance of colleges eligible to receive federal financial aid, and offer a look at the outcomes of students at those schools.

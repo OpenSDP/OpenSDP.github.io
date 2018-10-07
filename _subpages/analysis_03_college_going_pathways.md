@@ -9,6 +9,22 @@ Answer questions about students’ on-track status in ninth grade, high school g
 {% include link_box.html
   heading = "Attainment Along the Education Pipeline"
   author = "Strategic Data Project"
+  content = "The analyses in this guide summarize student attainment from ninth grade through college using three milestones: 1) on-time high school completion, 2) seamless college transition, and 3) persistence to the second year of college."
+  programming_language = "Stata"
+  download_code_stata = "https://github.com/opensdp/college-going-stata/raw/master/programs/college_going_pipeline.zip"
+  download_data_stata = "https://github.com/opensdp/college-going-stata/raw/master/data/analysis/college_going_analysis.dta"
+  statarepository = "https://github.com/opensdp/college-going-stata"
+  guide_stata = "https://opensdp.github.io/college-going-stata/college_going_pipeline.html"
+  programming_language = "R"
+  download_code_r = "https://github.com/opensdp/college-going-r/raw/master/docs/college_going_pipeline.Rmd"
+  download_data_r = "https://github.com/opensdp/college-going-stata/raw/master/data/analysis/college_going_analysis.dta"
+  rrepository = "https://github.com/opensdp/college-going-r"
+  guide_r = "https://opensdp.github.io/college-going-r/college_going_pipeline.html"
+  %}
+
+{% include link_box.html
+  heading = "Attainment Along the Education Pipeline"
+  author = "Strategic Data Project"
   programming_language = "Stata"
   content = "The analyses in this guide summarize student attainment from ninth grade through college using three milestones: 1) on-time high school completion, 2) seamless college transition, and 3) persistence to the second year of college."
   download_code = "https://github.com/opensdp/college-going-stata/raw/master/programs/college_going_pipeline.zip"

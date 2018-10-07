@@ -39,6 +39,20 @@
       </a>
     {% endif %}
 
+    {% if include.download_code_stata %}
+      <a href="{{include.download_code_stata}}" class="btn btn-default" role="button">
+        <span class="glyphicon glyphicon-download"></span>
+        Download Stata Code
+      </a>
+    {% endif %}
+
+    {% if include.download_code_r %}
+      <a href="{{include.download_code_r}}" class="btn btn-default" role="button">
+        <span class="glyphicon glyphicon-download"></span>
+        Download R Code
+      </a>
+    {% endif %}
+
     {% if include.download_tutorial %}
       <a href="{{include.download_tutorial}}" class="btn btn-default" role="button">
         <span class="glyphicon glyphicon-download"></span>
@@ -50,6 +64,20 @@
       <a href="{{include.download_data}}" class="btn btn-default" role="button">
         <span class="glyphicon glyphicon-download"></span>
         Download Data
+      </a>
+    {% endif %}
+
+    {% if include.download_data_stata %}
+      <a href="{{include.download_data_stata}}" class="btn btn-default" role="button">
+        <span class="glyphicon glyphicon-download"></span>
+        Download Data for Stata
+      </a>
+    {% endif %}
+
+    {% if include.download_data_r %}
+      <a href="{{include.download_data_r}}" class="btn btn-default" role="button">
+        <span class="glyphicon glyphicon-download"></span>
+        Download Data for R
       </a>
     {% endif %}
 
@@ -72,7 +100,21 @@
     {% endif %}
 
     {% if include.guide %}
-      <a href="{{include.guide}}" target="_blank" class="btn btn-emphasis" role="button">View Guide</a>
+      <a href="{{include.guide}}" target="_blank" class="btn btn-emphasis" role="button">
+        View Guide
+      </a>
+    {% endif %}
+
+    {% if include.guide_r %}
+      <a href="{{include.guide_r}}" target="_blank" class="btn btn-emphasis" role="button">
+        View R Guide
+      </a>
+    {% endif %}
+
+    {% if include.guide_stata %}
+      <a href="{{include.guide_stata}}" target="_blank" class="btn btn-emphasis" role="button">
+        View Stata Guide
+      </a>
     {% endif %}
 
      {% if include.started %}
