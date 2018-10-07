@@ -4,35 +4,59 @@ layout: default
 
 <div class="home">
 
+ <h1> OpenSDP is an open community for education data analysts.</h1>
+
+   We build and share analytics that help education data strategists answer the
+   questions they need, fast. We are a community committed to sharing knowledge,
+   transferring skills, and improving the rigor and reliability of education data
+   analysis.
+
+ <h1> Analytics </h1>
+
+   On OpenSDP you will have access to data, analyses and tutorials for every stage of
+   the analytic cycle, from preparing and standardizing your data, to conducting
+   analyses and producing visualizations.
+
+   {% for page in site.pages %}
+     {% if page.categories contains "domains" %}
+       <div class="detail-block">
+         <a href="{{page.url | relative_url}}">
+           <h4 class="box-subheading">{{page.title}}:</h4>
+         </a>
+         <p class="box-subdescription">{{page.description}}</p>
+       </div>
+     {% endif %}
+   {% endfor %}
+   <br class="clearfix">
+
+  <h1> Join our Community </h1>
+
+  We are building a welcoming and diverse community of education data strategists.
+  We aim to build capacity of novices, experts, and the everyone in-between.
+  We welcome participation and civil conversations that adhere to our code of
+  conduct. There are many ways to get involved.
+
+  Follow us on <a href="https://opensdp.github.com">GitHub</a>. Join our
+  <a href="https://goo.gl/HyEVZQ">Slack</a> community.
+  Read our <a href="https://opensdp.github.com">Starter Pack</a> to
+  learn how you can contribute your analytics to our community.
+
+  <a href="https://opensdp.github.io/analysis">Use</a> our analytics.
+  <a href="https://opensdp.github.com/">Improve</a> our documentation and code.
+  <a href="https://github.com/OpenSDP/OpenSDP_starter_pack">Submit</a> your own
+  analytics to the community. <a href="https://goo.gl/HyEVZQ">Discuss</a>
+  and share on Slack.
+
+  <h1>Why OpenSDP?</h1>
+
   OpenSDP is an online, public repository of analytic code, tools, and training
   intended to foster collaboration among education analysts and researchers in
   order to accelerate the improvement of our school systems. This community was
   built by the <a href="https://sdp.cepr.harvard.edu">Strategic Data Project</a>, an initiative of
   the <a href="https://cepr.harvard.edu">Center for Education Policy Research at Harvard</a>.
 
-  <h2>Participation</h2>
+  To learn more, <a href="{{site.baseurl}}/participate/">contact us</a>.
 
-  OpenSDP is first and foremost an open community, a place to share your code,
-  give and get feedback, and contribute new tools and ideas. Learn how to
-  <a href="{{site.baseurl}}/participate/">participate</a>.
-
-  <h2>Tools</h2>
-
-  On OpenSDP you will have access to data, analyses and tutorials for every stage of
-  the analytic cycle, from preparing and standardizing your data, to conducting
-  analyses and producing visualizations.
-
-  {% for page in site.pages %}
-    {% if page.categories contains "domains" %}
-      <div class="detail-block">
-        <a href="{{page.url | relative_url}}">
-          <h4 class="box-subheading">{{page.title}}:</h4>
-        </a>
-        <p class="box-subdescription">{{page.description}}</p>
-      </div>
-    {% endif %}
-  {% endfor %}
-  <br class="clearfix">
 
 
 </div>
