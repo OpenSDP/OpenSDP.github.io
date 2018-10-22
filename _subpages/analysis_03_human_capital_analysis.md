@@ -38,7 +38,7 @@ Use data to examine teacher workforce patterns and generate data visualizations 
   repository = "https://github.com/opensdp/human-capital-stata"
   guide = "https://opensdp.github.io/human-capital-stata/Human_Capital_Analysis_Development.html"
   %}
-  
+
 {% include link_box.html
   heading = "Evaluation"
   author = "Strategic Data Project"
@@ -60,5 +60,3 @@ Use data to examine teacher workforce patterns and generate data visualizations 
   repository = "https://github.com/opensdp/human-capital-stata"
   guide = "https://opensdp.github.io/human-capital-stata/Human_Capital_Analysis_Retention.html"
   %}
-
-
