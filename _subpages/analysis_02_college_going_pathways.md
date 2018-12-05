@@ -40,12 +40,12 @@ download_data_stata =
 stata_repository = "https://github.com/opensdp/college-going-stata"
 guide_stata = "https://opensdp.github.io/college-going-stata/college_going_ontrack.html"
 download_code_r =
-"https://github.com/opensdp/college-going-stata/raw/master/programs/college_going_ontrack.zip"
+"https://github.com/opensdp/college-going-r/raw/master/programs/college_going_ontrack.zip"
 download_data_r =
-"https://github.com/opensdp/college-going-stata/raw/master/data/analysis/college_going_analysis.dta"
-rrepository = "https://github.com/opensdp/college-going-stata"
+"https://github.com/opensdp/college-going-r/raw/master/data/analysis/college_going_analysis.dta"
+rrepository = "https://github.com/opensdp/college-going-r"
 guide_r =
-"https://opensdp.github.io/college-going-stata/college_going_ontrack.html" %}
+"https://opensdp.github.io/college-going-r/college_going_ontrack.html" %}
 
 {% include link_box.html heading = "High School Graduation" author = "Strategic
 Data Project"
@@ -60,12 +60,12 @@ download_data_stata =
 stata_repository = "https://github.com/opensdp/college-going-stata"
 guide_stata = "https://opensdp.github.io/college-going-stata/college_going_hs_grad.html"
 download_code_r =
-"https://github.com/opensdp/college-going-stata/raw/master/programs/college_going_hs_grad.zip"
+"https://github.com/opensdp/college-going-r/raw/master/programs/college_going_hs_grad.zip"
 download_data_r =
-"https://github.com/opensdp/college-going-stata/raw/master/data/analysis/college_going_analysis.dta"
-rrepository = "https://github.com/opensdp/college-going-stata"
+"https://github.com/opensdp/college-going-r/raw/master/data/analysis/college_going_analysis.dta"
+rrepository = "https://github.com/opensdp/college-going-r"
 guide_r =
-"https://opensdp.github.io/college-going-stata/college_going_hs_grad.html" %}
+"https://opensdp.github.io/college-going-r/college_going_hs_grad.html" %}
 
 {% include link_box.html
   heading = "College Enrollment"
@@ -75,10 +75,10 @@ guide_r =
   download_data_stata = "https://github.com/opensdp/college-going-stata/raw/master/data/analysis/college_going_analysis.dta"
   stata_repository = "https://github.com/opensdp/college-going-stata"
   guide_stata = "https://opensdp.github.io/college-going-stata/college_going_enrollment.html"
-  download_code_r = "https://github.com/opensdp/college-going-stata/raw/master/programs/college_going_enrollment.zip"
-  download_data_r = "https://github.com/opensdp/college-going-stata/raw/master/data/analysis/college_going_analysis.dta"
-  rrepository = "https://github.com/opensdp/college-going-stata"
-  guide_r = "https://opensdp.github.io/college-going-stata/college_going_enrollment.html"
+  download_code_r = "https://github.com/opensdp/college-going-r/raw/master/programs/college_going_enrollment.zip"
+  download_data_r = "https://github.com/opensdp/college-going-r/raw/master/data/analysis/college_going_analysis.dta"
+  rrepository = "https://github.com/opensdp/college-going-r"
+  guide_r = "https://opensdp.github.io/college-going-r/college_going_enrollment.html"
   %}
 
 {% include link_box.html
@@ -89,8 +89,8 @@ guide_r =
   download_data_stata = "https://github.com/opensdp/college-going-stata/raw/master/data/analysis/college_going_analysis.dta"
   stata_repository = "https://github.com/opensdp/college-going-stata"
   guide_stata = "https://opensdp.github.io/college-going-stata/college_going_persistence.html"
-  download_code_r = "https://github.com/opensdp/college-going-stata/raw/master/programs/college_going_persistence.zip"
-  download_data_r = "https://github.com/opensdp/college-going-stata/raw/master/data/analysis/college_going_analysis.dta"
-  rrepository = "https://github.com/opensdp/college-going-stata"
-  guide_r = "https://opensdp.github.io/college-going-stata/college_going_persistence.html"
+  download_code_r = "https://github.com/opensdp/college-going-r/raw/master/programs/college_going_persistence.zip"
+  download_data_r = "https://github.com/opensdp/college-going-r/raw/master/data/analysis/college_going_analysis.dta"
+  rrepository = "https://github.com/opensdp/college-going-r"
+  guide_r = "https://opensdp.github.io/college-going-r/college_going_persistence.html"
   %}
