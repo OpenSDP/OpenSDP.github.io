@@ -37,7 +37,7 @@ download_code_stata =
 "https://github.com/opensdp/college-going-stata/raw/master/programs/college_going_ontrack.zip"
 download_data_stata =
 "https://github.com/opensdp/college-going-stata/raw/master/data/analysis/college_going_analysis.dta"
-stata_repository = "https://github.com/opensdp/college-going-stata"
+statarepository = "https://github.com/opensdp/college-going-stata"
 guide_stata = "https://opensdp.github.io/college-going-stata/college_going_ontrack.html"
 download_code_r =
 "https://github.com/opensdp/college-going-r/raw/master/programs/college_going_ontrack.zip"
@@ -57,7 +57,7 @@ download_code_stata =
 "https://github.com/opensdp/college-going-stata/raw/master/programs/college_going_hs_grad.zip"
 download_data_stata =
 "https://github.com/opensdp/college-going-stata/raw/master/data/analysis/college_going_analysis.dta"
-stata_repository = "https://github.com/opensdp/college-going-stata"
+statarepository = "https://github.com/opensdp/college-going-stata"
 guide_stata = "https://opensdp.github.io/college-going-stata/college_going_hs_grad.html"
 download_code_r =
 "https://github.com/opensdp/college-going-r/raw/master/programs/college_going_hs_grad.zip"
@@ -73,7 +73,7 @@ guide_r =
   content = "The analyses in this guide highlight college-going rates across high schools, comparing outcomes for similar students attending different high schools. The analyses also examine whether high school graduates enroll in colleges and universities well-matched to their academic qualifications."
   download_code_stata = "https://github.com/opensdp/college-going-stata/raw/master/programs/college_going_enrollment.zip"
   download_data_stata = "https://github.com/opensdp/college-going-stata/raw/master/data/analysis/college_going_analysis.dta"
-  stata_repository = "https://github.com/opensdp/college-going-stata"
+  statarepository = "https://github.com/opensdp/college-going-stata"
   guide_stata = "https://opensdp.github.io/college-going-stata/college_going_enrollment.html"
   download_code_r = "https://github.com/opensdp/college-going-r/raw/master/programs/college_going_enrollment.zip"
   download_data_r = "https://github.com/opensdp/college-going-r/raw/master/data/analysis/college_going_analysis.dta"
@@ -87,7 +87,7 @@ guide_r =
   content = "The analyses in this guide examine patterns of persistence to the second year of college, to identify early indications of student progress towards degree attainment."
   download_code_stata = "https://github.com/opensdp/college-going-stata/raw/master/programs/college_going_persistence.zip"
   download_data_stata = "https://github.com/opensdp/college-going-stata/raw/master/data/analysis/college_going_analysis.dta"
-  stata_repository = "https://github.com/opensdp/college-going-stata"
+  statastatarepository_repository = "https://github.com/opensdp/college-going-stata"
   guide_stata = "https://opensdp.github.io/college-going-stata/college_going_persistence.html"
   download_code_r = "https://github.com/opensdp/college-going-r/raw/master/programs/college_going_persistence.zip"
   download_data_r = "https://github.com/opensdp/college-going-r/raw/master/data/analysis/college_going_analysis.dta"
