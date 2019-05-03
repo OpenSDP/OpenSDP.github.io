@@ -4,7 +4,10 @@ no_formatting: true
 ---
 
 ### College-Going Pathways
-Answer questions about students’ on-track status in ninth grade, high school graduation, college enrollment, and college persistence. Identify patterns and trends along the education pipeline to and through college for students as a group and as subgroups.
+Answer questions about students’ on-track status in ninth grade, high school
+graduation, college enrollment, and college persistence. Identify patterns and
+trends along the education pipeline to and through college for students as a
+group and as subgroups.
 
 {% include link_box.html heading = "Attainment Along the Education Pipeline"
 author = "Strategic Data Project"
