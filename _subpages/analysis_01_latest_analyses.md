@@ -9,7 +9,7 @@ Explore gaps in student achievement, specifically along lines of race,
 socioeconomic status, gender, English language learner status, special education
 status, and migrancy status, among others.
 
-{% include link_box.html heading = "Attainment Along the Education Pipeline"
+{% include link_box.html heading = "Student Assessment Equity Metrics"
 author = "Dashiell Young-Saver"
 content = "The analyses in this guide
 explore demographic disparities in student achievement on state summative
